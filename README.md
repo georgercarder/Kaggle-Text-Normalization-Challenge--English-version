@@ -34,7 +34,7 @@ The process to normalize the text of en_test.csv goes as follows.
 
 -run the indicators.finders contained in the indicators.finders folder
 
--run classifyTEST.R contained in the classify folder
+-run classifyTEST.MASTER.R contained in the classify folder
 
 -run normalize.R which calls other files in both the normalize and converters folder.
 
