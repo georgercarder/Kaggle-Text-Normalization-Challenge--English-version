@@ -30,7 +30,7 @@ The process to normalize the text of en_test.csv goes as follows.
 
 -change the types of columns: class, before, and after to character using as.character().
 
--download the caches from the data folder
+-download the "caches" and other data from the data folder
 
 -run the indicators.finders contained in the indicators.finders folder
 
