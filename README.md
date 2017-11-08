@@ -3,7 +3,7 @@ Machine learning algorithm that normalizes text to be used as input to speech an
 
 This project normalizes the text contained in the en_test.csv (see "data" below).
 
-This project will be partitioned into the following classes: Data, indicators.finders, classification, normalization, and converters. To better organize the body of files, Data is in the Data branch, indicators.finders is in the indicators.finders branch etc.
+This project will be partitioned into the following classes: Data, indicators.finders, classification, normalization, and converters. To better organize the body of files, Data is in the Data folder, indicators.finders is in the indicators.finders folder etc.
 
 All data stems from the initial training and testing data sets provided by the Kaggle website. Programs that engineer data from these initial sources will be consolidated and posted. For now the resulting "caches" will be provided for download. 
 Download the initial data sets: 
