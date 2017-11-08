@@ -26,6 +26,8 @@ The process to normalize the text of en_test.csv goes as follows.
 
 -download en_train.csv and en_test.csv from the above links
 
+-use read.csv to save en_train.csv and en_test.csv as variables "trn" and "tst" respectively
+
 -change the types of columns: class, before, and after to character using as.character().
 
 -download the caches from the data folder
