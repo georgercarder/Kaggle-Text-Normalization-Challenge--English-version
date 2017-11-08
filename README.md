@@ -38,3 +38,9 @@ The process to normalize the text of en_test.csv goes as follows.
 
 If all goes well, this produces a vector called "Classs" containing the normalization of the "before" vector of characters from en_test.csv.
 
+On a Linux Intel Core2 Duo system running the classify and normalize sections takes about 1.5 hours.
+
+The lengthy part of this operation is running the indicators.finders.
+
+Revisions of this project will address efficiency as some of the indicators.finders have long computation time. Initially this project was designed to normalize by any means necessary without full consideration to efficiency. Stay tuned for optimal renditions of this project.
+
