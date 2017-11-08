@@ -34,11 +34,11 @@ The process to normalize the text of en_test.csv goes as follows.
 
 -run the indicators.finders contained in the indicators.finders folder
 
--run classifyTEST.MASTER.R contained in the classify folder
+-run classifyTEST.MASTER.R contained in the classify folder. This produces the vector "Classs" whose entries are classifications of the corresponding "before" tokens.
 
 -run normalize.R which calls other files in both the normalize and converters folder.
 
-If all goes well, this produces a vector called "Classs" containing the normalization of the "before" vector of characters from en_test.csv.
+If all goes well, this produces a vector called "after" containing the normalization of the "before" vector of characters from en_test.csv.
 
 On a Linux Intel Core2 Duo system running the classify and normalize sections takes about 1.5 hours.
 
