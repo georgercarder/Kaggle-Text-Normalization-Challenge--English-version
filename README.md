@@ -45,5 +45,5 @@ On a Linux Intel Core2 Duo system running the classify and normalize sections ta
 
 The lengthy part of this operation is running the indicators.finders.guesses.
 
-Revisions of this project will address efficiency as some of the indicators.finders.guesses have long computation time. Initially this project was designed to normalize by any means necessary without full consideration to efficiency. Stay tuned for optimal renditions of this project.
+Revisions of this project will address efficiency as some of the indicators.finders.guesses have long computation time. Initially this project was designed to normalize by any means necessary without full consideration to efficiency. Stay tuned for optimized renditions of this project.
 
