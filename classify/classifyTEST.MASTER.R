@@ -181,6 +181,7 @@ print("....................................................")
 
 #to.indicatorT is associated to spacingnumberT.R
 
+source("spacingnumberT.R")
 
 load("to.indicatorT")#
 tst$to.indicatorT<-to.indicatorT
