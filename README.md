@@ -17,7 +17,7 @@ Be sure to review any script with "guess" in the title so you can see how the "g
 
 Classification is consolidation of all scripts classifying sentence tokens. The process initially is quite systematic but becomes quite improvised towards the end in order to classify noisy tokens. A summary of the process is to check token for conditions, usually using a grep type function, then check against an indicator.finder.guesses, and also check if the token has yet been classified. It turns out that an order of operations is important to discern ambiguous tokens. For instance there is much ambiguity and overlap of conditions related to the DATE and TELEPHONE classes. To parse this overlap, order of classification had to be determined through trial and error to reduce misclassification. 
 
-Normalization is a collection of scripts that maps tokens to a configuration of characters determined by linguistic, and contextual rules. I feel this body of files is the most enjoyable and interesting to write.
+Normalization is a collection of scripts that maps tokens to a configuration of characters determined by linguistic, and contextual rules. I feel this body of files was the most enjoyable and interesting to write and is likely the most interesting read.
 
 Converters is a collection of tools that the normalizers call to form their specific configurations of characters to arrive at a fully normalized text.
 
